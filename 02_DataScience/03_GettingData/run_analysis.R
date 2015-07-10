@@ -3,8 +3,6 @@ library(plyr)
 ## Step 1 -  Merge the training and the test sets
 ################################################################################
 
-setwd("C:/Users/Ido/Documents/GitHub/school/02_DataScience/03_GettingData/")
-
 # read tables
 xTrain <- read.table("UCI HAR Dataset/train/X_train.txt")
 yTrain <- read.table("UCI HAR Dataset/train/y_train.txt")
