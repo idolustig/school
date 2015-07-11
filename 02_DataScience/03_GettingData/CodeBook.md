@@ -1,4 +1,4 @@
-#CodeBook for [tidy.txt](https://github.com/idolustig/school/tree/master/02_DataScience/03_GettingData/tidy.txt) dataset  
+#CodeBook for tidy.txt dataset  
 
 ##Data source
 This dataset is derived from the ["Human Activity Recognition Using Smartphones Data Set"](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
