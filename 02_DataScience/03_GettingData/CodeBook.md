@@ -4,8 +4,8 @@
 This dataset is derived from the ["Human Activity Recognition Using Smartphones Data Set"](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 ##Identifiers
-  * subject  - one of 1:30, the test subject (person)  
-  * activity - one of {LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS} - the activity performed during the test   
+  * **subject**  - one of 1:30, the test subject (person)  
+  * **activity** - one of {LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS} - the activity performed during the test   
  
 ##Measurements
 tBodyAccMean (X,Y,Z)  
