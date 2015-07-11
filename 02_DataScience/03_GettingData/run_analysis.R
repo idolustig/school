@@ -19,12 +19,13 @@ yData <- rbind(yTrain, yTest)
 features <- read.table("UCI HAR Dataset/features.txt")
 
 # clean the features table
-features[,2] = gsub('-std', 'std', features[,2])
-features[,2] = gsub('-mean', 'mean', features[,2])
+features[,2] = gsub('-std', 'Std', features[,2])
+features[,2] = gsub('-mean', 'Mean', features[,2])
 features[,2] = gsub('[-()]', '', features[,2])
+features[,2] = gsub(',gravity', 'Gravity', features[,2])
 
 # subset only columns with mean or std in their names
-relevantFeatures <- grep(".*mean.*|.*std.*", features[,2])
+relevantFeatures <- grep(".*Mean.*|.*Std.*", features[,2])
 xData <- xData[,relevantFeatures]
 
 ## Step 3 -  Use descriptive activity names to name activities in the data set
@@ -55,6 +56,6 @@ allData <- cbind(xData, yData, subjectData)
 ##           for each activity and each subject
 ################################################################################
 # calc mean for all columns but last two (activity & subject)
-averagesData <- ddply(allData, .(subject, activity), function(x) colMeans(x[,1:66]))
+averagesData <- ddply(allData, .(subject, activity), function(x) colMeans(x[,1:86]))
 
-write.table(averagesData, "averages_data.txt", row.name=FALSE)
+write.table(averagesData, "tidy.txt", row.name=FALSE)
