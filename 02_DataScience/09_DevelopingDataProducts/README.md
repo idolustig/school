@@ -12,5 +12,5 @@ The user of the tool can chose a timeframe on which she can get the following:
 ## Data Source  
 Data is taken from http://www.pais.co.il/Lotto/Pages/last_Results.aspx?download=1
 
-## Outputs
+## Output
 Shiny app - https://idolustig.shinyapps.io/09_DevelopingDataProducts  
