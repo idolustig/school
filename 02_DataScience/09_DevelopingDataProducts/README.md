@@ -14,4 +14,3 @@ Data is taken from http://www.pais.co.il/Lotto/Pages/last_Results.aspx?download=
 
 ## Outputs
 Shiny app - https://idolustig.shinyapps.io/09_DevelopingDataProducts  
-Slidify presentation - http://rpubs.com/idolustig/israeli_lottery  
