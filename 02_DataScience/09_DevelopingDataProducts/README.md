@@ -13,5 +13,5 @@ The user of the tool can chose a timeframe on which she can get the following:
 Data is taken from http://www.pais.co.il/Lotto/Pages/last_Results.aspx?download=1
 
 ## Outputs
-Shiny app - 
-Slidify presentation - 
+Shiny app -   
+Slidify presentation - http://rpubs.com/idolustig/israeli_lottery  
