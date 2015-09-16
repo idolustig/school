@@ -9,9 +9,9 @@ The user of the tool can chose a timeframe on which she can get the following:
 * Numbers frequency (draws per number)  
 * Inspect the raw data    
 
-## Source of the data  
+## Data Source  
 Data is taken from http://www.pais.co.il/Lotto/Pages/last_Results.aspx?download=1
 
 ## Outputs
-Shiny app -   
+Shiny app - https://idolustig.shinyapps.io/09_DevelopingDataProducts  
 Slidify presentation - http://rpubs.com/idolustig/israeli_lottery  
