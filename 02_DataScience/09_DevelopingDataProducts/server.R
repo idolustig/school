@@ -1,4 +1,5 @@
 library(shiny)
+library (plyr)
 source("lottery.R")
 
 # Read data and convert date type
@@ -40,4 +41,3 @@ shinyServer(function(input, output) {
         })
         
 })
-
