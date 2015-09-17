@@ -1,3 +1,4 @@
+library (plyr)
 # Read data function
 readLotteryData <- function () {
         headerNames <-c("lotteryId","lotteryDate","one","two","three","four","five",
